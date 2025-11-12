@@ -80,7 +80,7 @@ const GameEmbed = () => {
         <div className="relative w-full" style={{ paddingBottom: isMobile ? '85%' : '72%' }}>
           <iframe 
             key={gameKey}
-            src={`https://game316009.konggames.com/gamez/0031/6009/live/index.html${gameKey}`}
+            src={`https://game316009.konggames.com/gamez/0031/6009/live/index.html`}
             className="absolute inset-0 w-full h-full border-0"
             id="gameIframe"
             allow="fullscreen; autoplay; accelerometer; gyroscope; magnetometer"
